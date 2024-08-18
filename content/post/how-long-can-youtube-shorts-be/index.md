@@ -3,6 +3,7 @@ title: "How Long Can YouTube Shorts Be: Tips for Creation and Uploading"
 date: 2023-08-18
 draft: false
 tags: ["YouTube Shorts", "Content Creation", "Video Marketing", "Social Media"]
+
 ---
 
 As a content creator, you're likely familiar with the concept of short-form video platforms like TikTok, Instagram Reels, or Facebook Watch. However, have you explored the world of **YouTube Shorts**? This feature allows creators to produce engaging, bite-sized videos that can be up to 60 seconds long.

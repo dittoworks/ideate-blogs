@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ideate.xyz on ideate.xyz blogs</title>
-    <link>https://blog.ideate.xyz/tags/ideate.xyz/</link>
+    <link>http://localhost:1313/tags/ideate.xyz/</link>
     <description>Recent content in Ideate.xyz on ideate.xyz blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ideate.xyz/tags/ideate.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ideate.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abstract Background: Popular Styles and How to Easily Create Them with Ideate.xyz Image Studio</title>
-      <link>https://blog.ideate.xyz/post/abstract-background-popular-styles-and-how-to-easily-create-them-with-ideate-dot-xyz-image-studio/</link>
+      <link>http://localhost:1313/post/abstract-background-popular-styles-and-how-to-easily-create-them-with-ideate-dot-xyz-image-studio/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.ideate.xyz/post/abstract-background-popular-styles-and-how-to-easily-create-them-with-ideate-dot-xyz-image-studio/</guid>
+      <guid>http://localhost:1313/post/abstract-background-popular-styles-and-how-to-easily-create-them-with-ideate-dot-xyz-image-studio/</guid>
       <description>Unlocking Visual Interest in Graphic Design, Web Design, Social Media Graphics, and Video Editing Are you tired of using plain backgrounds in your graphics design or web design? Do you want to add some visual interest to your social media posts, YouTube thumbnails, or web one pagers? Look no further than abstract backgrounds! In this post, we&amp;rsquo;ll explore what abstract backgrounds are, why they&amp;rsquo;re so commonly used, and the different types of abstract backgrounds that work well for various use cases.</description>
     </item>
     <item>
       <title>Adopt the Power of Adobe Firefly with a Free Alternative: Ideate.xyz</title>
-      <link>https://blog.ideate.xyz/post/adobe-firefly-free-alternative/</link>
+      <link>http://localhost:1313/post/adobe-firefly-free-alternative/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.ideate.xyz/post/adobe-firefly-free-alternative/</guid>
+      <guid>http://localhost:1313/post/adobe-firefly-free-alternative/</guid>
       <description>Unlocking Creative Potential: A Deep Dive into Adobe Firefly Adobe Firefly is the latest innovation from the legendary creative suite provider, aimed at revolutionizing image generation and AI-powered design. This exciting technology allows users to create stunning visuals with just a few words, leveraging the power of artificial intelligence.&#xA;However, as we explore the capabilities of Adobe Firefly, it&amp;rsquo;s essential to acknowledge the elephant in the room: the steep learning curve associated with using Adobe software.</description>
     </item>
   </channel>

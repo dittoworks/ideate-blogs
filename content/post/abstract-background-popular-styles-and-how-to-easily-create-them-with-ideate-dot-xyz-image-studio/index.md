@@ -3,6 +3,7 @@ title: "Abstract Background: Popular Styles and How to Easily Create Them with I
 date: 2023-08-18
 draft: false
 tags: ["Abstract Background", "Graphic Design", "Web Design", "Ideate.xyz", "Image Studio"]
+
 ---
 
 ## Unlocking Visual Interest in Graphic Design, Web Design, Social Media Graphics, and Video Editing

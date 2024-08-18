@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Faceless YouTube on ideate.xyz blogs</title>
-    <link>https://blog.ideate.xyz/tags/faceless-youtube/</link>
+    <link>http://localhost:1313/tags/faceless-youtube/</link>
     <description>Recent content in Faceless YouTube on ideate.xyz blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ideate.xyz/tags/faceless-youtube/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/faceless-youtube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Art of Faceless YouTube: How to Create a Successful Channel without Showing Your Face, with the Help of YouTube Automation</title>
-      <link>https://blog.ideate.xyz/post/faceless-youtube-authenticity-content-design-automation/</link>
+      <link>http://localhost:1313/post/faceless-youtube-authenticity-content-design-automation/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.ideate.xyz/post/faceless-youtube-authenticity-content-design-automation/</guid>
+      <guid>http://localhost:1313/post/faceless-youtube-authenticity-content-design-automation/</guid>
       <description>Introduction As the YouTube algorithm continues to evolve, one trend has become increasingly clear: being authentic is key to success. While some creators might be tempted to use AI-generated content or automated tools to cut corners, this approach can ultimately harm their channel&amp;rsquo;s credibility and engagement. In contrast, faceless YouTubers who invest time in creating high-quality thumbnails, writing engaging content, and showcasing their unique personality can build a loyal following and achieve long-term success.</description>
     </item>
   </channel>

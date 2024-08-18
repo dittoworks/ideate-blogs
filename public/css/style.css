@@ -28,14 +28,33 @@ hr {
     color: whitesmoke;
 }
 
+.post {
+    width: 100%;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.post-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-title {
+    margin-bottom: 16px; /* Adjust as needed */
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 #landing ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
 #landing li {
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
     padding: 0;
 }
 
@@ -248,7 +267,7 @@ img {
     }
 
     #post {
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 
     #after-post {

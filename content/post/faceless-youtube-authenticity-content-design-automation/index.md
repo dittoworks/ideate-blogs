@@ -3,6 +3,7 @@ title: "The Art of Faceless YouTube: How to Create a Successful Channel without 
 date: 2023-08-18
 draft: false
 tags: ["Faceless YouTube", "YouTube Automation", "Content Creation", "Authenticity", "Thumbnail Design"]
+
 ---
 
 ## Introduction

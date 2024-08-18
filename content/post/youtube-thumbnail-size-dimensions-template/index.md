@@ -3,7 +3,6 @@ title: "The Ultimate Guide to Creating Eye-Catching YouTube Thumbnails: Size, Di
 date: 2023-08-18
 draft: false
 tags: ["YouTube", "Thumbnails", "Content Creation", "Marketing"]
-
 ---
 
 ## I. Introduction

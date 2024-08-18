@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Business Templates on ideate.xyz blogs</title>
-    <link>https://blog.ideate.xyz/tags/business-templates/</link>
+    <link>http://localhost:1313/tags/business-templates/</link>
     <description>Recent content in Business Templates on ideate.xyz blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ideate.xyz/tags/business-templates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/business-templates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a One Pager? Generate One Pager Templates in Seconds with Ideate XYZ AI Design Tool</title>
-      <link>https://blog.ideate.xyz/post/what-is-a-one-pager-example-generate-one-pager-templates-in-seconds-with-ideate-xyz-ai/</link>
+      <link>http://localhost:1313/post/what-is-a-one-pager-example-generate-one-pager-templates-in-seconds-with-ideate-xyz-ai/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.ideate.xyz/post/what-is-a-one-pager-example-generate-one-pager-templates-in-seconds-with-ideate-xyz-ai/</guid>
+      <guid>http://localhost:1313/post/what-is-a-one-pager-example-generate-one-pager-templates-in-seconds-with-ideate-xyz-ai/</guid>
       <description>A one pager is a concise, one-page document that summarizes key information and presents it in a clear and visually appealing way. It&amp;rsquo;s often used for business meetings, pitches, proposals, and other contexts where a brief overview of an idea or project is required.&#xA;In this blog post, we&amp;rsquo;ll explore what a one pager is, the benefits of using one pager templates, provide a one pager example, and show you how to quickly generate high-quality templates in seconds with Ideate XYZ AI design tool.</description>
     </item>
   </channel>

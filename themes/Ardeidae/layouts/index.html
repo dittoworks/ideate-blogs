@@ -13,11 +13,14 @@
                 <ul>
                     {{ range .Site.RegularPages.ByPublishDate.Reverse }}
                     <li class="post">
-                        <a href="{{ .Permalink }}">
-                            {{ .Title }}
-                            <br />
-                            <time>{{ .Date.Format (.Site.Params.dateform | default "2006-01-02") }}</time>
-                        </a>
+                        <div class="post-flex">
+                            <a href="{{ .Permalink }}">
+                                <h4 class="post-title">{{ .Title }}</h2>
+                                {{ with .Resources.GetMatch "cover.*" }}
+                                <img src="{{ .RelPermalink }}" alt="{{ $.Title }} thumbnail" class="post-image">
+                                {{ end }}
+                            </a>
+                        </div>
                     </li>
                     {{ end }}
                 </ul>
