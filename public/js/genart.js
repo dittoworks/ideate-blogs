@@ -6,38 +6,43 @@ const colors = [
     "#703BF6"   // Royal Purple
 ];
 
-let arcSize = 100;
-let yStep = 10;
-let padding = arcSize * 4;
-let phi = 0;
-let phiIncrement = 0.5; // Slowed down from original 3
-
-let rotation = 0;
-
 let currentColor;
 let targetColor;
 let colorTransitionProgress = 0;
-let colorTransitionDuration = 600; // Transition over 10 seconds (assuming 60 fps)
+let colorTransitionDuration = 300; // Transition over 5 seconds
+
+let particles = [];
+let rings = [];
+let orbitingStars = [];
+let noiseOffset = 0;
 
 function setup() {
-    const canvaContainer = select("#landing-canva");
-    const canva = createCanvas(canvaContainer.width, canvaContainer.height);
-    canva.parent("landing-canva");
+    const canvasContainer = select("#landing-canva");
+    const canvas = createCanvas(canvasContainer.width, canvasContainer.height);
+    canvas.parent("landing-canva");
     frameRate(60);
-
-    // random vars (kept from original)
-    rotation = random(PI / 2);
-    arcSize = random(50, 150);
-    yStep = random(8, 12);
-    phiIncrement = random(0.2, 0.8); // Slowed down range from original 1, 5
 
     currentColor = color(random(colors));
     targetColor = color(random(colors));
+
+    // Create particles
+    for (let i = 0; i < 200; i++) {
+        particles.push(new Particle());
+    }
+
+    // Create rings
+    for (let i = 0; i < 3; i++) {
+        rings.push(new Ring(180 + i * 40, i * 0.5));
+    }
+
+    // Create orbiting stars
+    for (let i = 0; i < 20; i++) {
+        orbitingStars.push(new OrbitingStar(random(rings).radius, random(TWO_PI)));
+    }
 }
 
 function draw() {
-    background(0); // Always black background
-    noFill();
+    background(0, 20);
 
     // Color transition
     colorTransitionProgress += 1 / colorTransitionDuration;
@@ -47,24 +52,140 @@ function draw() {
         colorTransitionProgress = 0;
     }
     let transitionColor = lerpColor(currentColor, targetColor, colorTransitionProgress);
-    stroke(transitionColor);
 
-    // Original animation structure
-    rotate(rotation);
-    translate(0, -(Math.sin(rotation) * width));
-
-    for (let y = -padding; y < (height) + padding; y += yStep) {
-        let sw1 = map(sin(radians(y + phi)), -1, 1, 2, yStep);
-        strokeWeight(sw1);
-        for (let x1 = -padding; x1 < width + padding; x1 += arcSize * 2) {
-            arc(x1, y, arcSize, arcSize, 0, PI);
-        }
-
-        let sw2 = map(sin(radians(y - phi)), -1, 1, 2, yStep);
-        strokeWeight(sw2);
-        for (let x2 = -padding; x2 < width + padding; x2 += arcSize * 2) {
-            arc(x2 + arcSize, y, arcSize, arcSize, PI, TWO_PI);
-        }
+    // Draw particles
+    for (let particle of particles) {
+        particle.update();
+        particle.display();
     }
-    phi += phiIncrement;
+
+    push();
+    translate(width / 2, height / 2);
+
+    // Draw rings
+    for (let ring of rings) {
+        ring.update();
+        ring.display(transitionColor);
+    }
+
+    // Draw orbiting stars
+    for (let star of orbitingStars) {
+        star.update();
+        star.display(transitionColor);
+    }
+
+    // Draw morphing sphere
+    drawMorphingSphere(transitionColor);
+
+    pop();
+
+    noiseOffset += 0.02;
+}
+
+function drawMorphingSphere(baseColor) {
+    // Draw aura
+    for (let i = 8; i > 0; i--) {
+        let auraColor = color(red(baseColor), green(baseColor), blue(baseColor), 10);
+        fill(auraColor);
+        noStroke();
+        ellipse(0, 0, 300 + i * 20 + sin(frameCount * 0.05) * 20);
+    }
+
+    // Draw morphing sphere
+    noFill();
+    strokeWeight(2);
+    let radius = 150;
+    
+    for (let i = 0; i < 50; i++) {
+        let angleOffset = noise(i * 0.1, noiseOffset) * TWO_PI;
+        let r = radius + sin(frameCount * 0.1 + i * 0.5) * 20;
+        stroke(red(baseColor), green(baseColor), blue(baseColor), 150);
+        arc(0, 0, r * 2, r * 2, angleOffset, angleOffset + PI);
+    }
+}
+
+class Particle {
+    constructor() {
+        this.resetPosition();
+        this.size = random(1, 3);
+        this.alpha = random(100, 255);
+        this.blinkSpeed = random(0.02, 0.05);
+    }
+
+    resetPosition() {
+        this.x = random(width);
+        this.y = random(height);
+    }
+
+    update() {
+        this.alpha = 127 + 127 * sin(frameCount * this.blinkSpeed);
+        
+        // Slowly move particles
+        this.x += random(-0.5, 0.5);
+        this.y += random(-0.5, 0.5);
+
+        // Wrap around edges
+        if (this.x < 0) this.x = width;
+        if (this.x > width) this.x = 0;
+        if (this.y < 0) this.y = height;
+        if (this.y > height) this.y = 0;
+    }
+
+    display() {
+        noStroke();
+        fill(255, this.alpha);
+        ellipse(this.x, this.y, this.size);
+    }
+}
+
+class Ring {
+    constructor(radius, rotationSpeed) {
+        this.radius = radius;
+        this.rotationSpeed = rotationSpeed;
+        this.rotation = 0;
+    }
+
+    update() {
+        this.rotation += this.rotationSpeed;
+    }
+
+    display(baseColor) {
+        push();
+        rotate(this.rotation);
+        noFill();
+        strokeWeight(2);
+        stroke(red(baseColor), green(baseColor), blue(baseColor), 100);
+        ellipse(0, 0, this.radius * 2);
+        pop();
+    }
+}
+
+class OrbitingStar {
+    constructor(orbitRadius, startAngle) {
+        this.orbitRadius = orbitRadius;
+        this.angle = startAngle;
+        this.speed = random(0.01, 0.03);
+        this.size = random(2, 4);
+    }
+
+    update() {
+        this.angle += this.speed;
+    }
+
+    display(baseColor) {
+        let x = cos(this.angle) * this.orbitRadius;
+        let y = sin(this.angle) * this.orbitRadius;
+        fill(red(baseColor), green(baseColor), blue(baseColor), 200);
+        noStroke();
+        ellipse(x, y, this.size);
+    }
+}
+
+function windowResized() {
+    const canvasContainer = select("#landing-canva");
+    resizeCanvas(canvasContainer.width, canvasContainer.height);
+    particles = [];
+    for (let i = 0; i < 200; i++) {
+        particles.push(new Particle());
+    }
 }

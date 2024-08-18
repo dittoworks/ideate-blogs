@@ -65,7 +65,7 @@ hr {
 
 #posts-container {
     font-size: 2rem;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     margin-top: 3rem;
     padding: 0 10rem 0 0;
@@ -98,8 +98,8 @@ header {
 #site-title {
     display: inline-block;
     color: whitesmoke;
-    padding: 0.6rem;
-    font-family: "Noto Sans", sans-serif;
+    padding-top: 0.6rem;
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -128,7 +128,7 @@ header {
 
 #post {
     margin: auto;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     max-width: 800px;
     font-size: 1.2rem;
 }
@@ -152,7 +152,7 @@ header {
 }
 
 #after-post {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 1rem;
     text-align: center;
@@ -182,7 +182,7 @@ header {
 /* footer */
 
 footer {
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Poppins", sans-serif;
     color: whitesmoke;
     opacity: 0.75;
     font-size: 1rem;
@@ -198,7 +198,7 @@ img {
 }
 
 .chroma {
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     padding: 1.5rem 1rem;
     border-radius: 3px;

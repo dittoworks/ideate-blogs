@@ -2,31 +2,227 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ideate.xyz blogs</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blog.ideate.xyz/tags/</link>
     <description>Recent content in Tags on ideate.xyz blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.ideate.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstract Background</title>
+      <link>https://blog.ideate.xyz/tags/abstract-background/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/abstract-background/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adobe Firefly</title>
+      <link>https://blog.ideate.xyz/tags/adobe-firefly/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/adobe-firefly/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <link>https://blog.ideate.xyz/tags/ai/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Future</title>
-      <link>http://localhost:1313/tags/future/</link>
-      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/future/</guid>
+      <title>AI Design Tool</title>
+      <link>https://blog.ideate.xyz/tags/ai-design-tool/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/ai-design-tool/</guid>
       <description></description>
     </item>
     <item>
-      <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
-      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <title>AI-Powered Design</title>
+      <link>https://blog.ideate.xyz/tags/ai-powered-design/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/ai-powered-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authenticity</title>
+      <link>https://blog.ideate.xyz/tags/authenticity/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/authenticity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Branding</title>
+      <link>https://blog.ideate.xyz/tags/branding/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/branding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business Templates</title>
+      <link>https://blog.ideate.xyz/tags/business-templates/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/business-templates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content Creation</title>
+      <link>https://blog.ideate.xyz/tags/content-creation/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/content-creation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creativity</title>
+      <link>https://blog.ideate.xyz/tags/creativity/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/creativity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://blog.ideate.xyz/tags/design/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design Accessibility</title>
+      <link>https://blog.ideate.xyz/tags/design-accessibility/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/design-accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Faceless YouTube</title>
+      <link>https://blog.ideate.xyz/tags/faceless-youtube/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/faceless-youtube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphic Design</title>
+      <link>https://blog.ideate.xyz/tags/graphic-design/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/graphic-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphic Design Tools</title>
+      <link>https://blog.ideate.xyz/tags/graphic-design-tools/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/graphic-design-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ideate XYZ</title>
+      <link>https://blog.ideate.xyz/tags/ideate-xyz/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/ideate-xyz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ideate.xyz</title>
+      <link>https://blog.ideate.xyz/tags/ideate.xyz/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/ideate.xyz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ideation</title>
+      <link>https://blog.ideate.xyz/tags/ideation/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/ideation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Image Studio</title>
+      <link>https://blog.ideate.xyz/tags/image-studio/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/image-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>https://blog.ideate.xyz/tags/innovation/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marketing</title>
+      <link>https://blog.ideate.xyz/tags/marketing/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>One Pager</title>
+      <link>https://blog.ideate.xyz/tags/one-pager/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/one-pager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://blog.ideate.xyz/tags/productivity/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Media</title>
+      <link>https://blog.ideate.xyz/tags/social-media/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/social-media/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thumbnail Design</title>
+      <link>https://blog.ideate.xyz/tags/thumbnail-design/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/thumbnail-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thumbnails</title>
+      <link>https://blog.ideate.xyz/tags/thumbnails/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/thumbnails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video Marketing</title>
+      <link>https://blog.ideate.xyz/tags/video-marketing/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/video-marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Design</title>
+      <link>https://blog.ideate.xyz/tags/web-design/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/web-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YouTube</title>
+      <link>https://blog.ideate.xyz/tags/youtube/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/youtube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YouTube Automation</title>
+      <link>https://blog.ideate.xyz/tags/youtube-automation/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/youtube-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YouTube Shorts</title>
+      <link>https://blog.ideate.xyz/tags/youtube-shorts/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.ideate.xyz/tags/youtube-shorts/</guid>
       <description></description>
     </item>
   </channel>
