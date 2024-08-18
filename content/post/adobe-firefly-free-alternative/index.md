@@ -1,10 +1,13 @@
 ---
 title: "Adopt the Power of Adobe Firefly with a Free Alternative: Ideate.xyz"
-date: 2023-08-18
+date: 2023-08-19
 draft: false
 tags: ["Adobe Firefly", "Ideate.xyz", "AI-powered design", "Graphic design tools", "Design accessibility"]
 
 ---
+
+![Cover image featuring adobe firefly.](cover.jpg)
+
 
 ## Unlocking Creative Potential: A Deep Dive into Adobe Firefly
 
