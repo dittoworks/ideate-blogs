@@ -1,0 +1,9 @@
+baseURL = 'https://blog.ideate.xyz'
+languageCode = 'en-us'
+title = 'ideate.xyz blogs'
+theme = 'Ardeidae'
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
