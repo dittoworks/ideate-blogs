@@ -157,6 +157,7 @@ header {
     margin: 4rem 0 0.5rem 0;
     font-size: 2rem;
     font-weight: bold;
+    line-height: 1.6em;
 }
 
 #post time {
@@ -166,8 +167,9 @@ header {
 }
 
 #post-content {
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
+    line-height: 2em;
 }
 
 #after-post {
